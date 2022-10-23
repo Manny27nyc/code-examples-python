@@ -33,3 +33,4 @@ virtualenv-clone==0.5.3
 Werkzeug==0.16.0
 wrapt==1.11.2
 
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
