@@ -3,7 +3,7 @@ certifi==2019.9.11
 cffi==1.14.3
 chardet==3.0.4
 Click
-cryptography==3.2.1
+cryptography==3.3.2
 docusign-esign==3.10.0rc1
 docusign-rooms==1.1.0
 docusign-monitor==1.0.0
@@ -33,3 +33,5 @@ virtualenv-clone==0.5.3
 Werkzeug==0.16.0
 wrapt==1.11.2
 
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
